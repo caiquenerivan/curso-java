@@ -1,0 +1,13 @@
+package PortoSeguro;
+
+public class OlaMundo{
+	public static void main(String[] args) {
+		
+		String name="Caique Neriva";
+		int idade = 27;
+		float altura = 1.77;
+		
+		
+		
+	}
+}
