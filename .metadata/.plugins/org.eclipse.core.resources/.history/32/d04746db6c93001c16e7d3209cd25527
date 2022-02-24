@@ -1,0 +1,13 @@
+package PortoSeguro;
+
+public class Empregado1 extends Pessoa {
+	
+	private int codigoSetor;
+	private float salarioBase;
+	private float imposto;
+	
+	public Empregado1() {
+		
+	}
+	
+}

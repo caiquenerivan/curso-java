@@ -1,0 +1,17 @@
+package PortoSeguro;
+
+public class Pessoa {
+	private String nome;
+	private String endereco;
+	private String cpf;
+	private int telefone;
+	private int idade;
+	
+	public Pessoa(String nome, String endereco, String cpf, int telefone, int idade) {
+		this.nome = nome;
+		this.endereco = endereco;
+		this.cpf = cpf;
+		this.telefone = telefone;
+		this.idade = idade;
+	}
+}

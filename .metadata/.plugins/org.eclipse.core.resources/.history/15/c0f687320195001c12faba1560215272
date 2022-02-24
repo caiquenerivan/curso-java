@@ -1,0 +1,9 @@
+package PortoSeguro;
+
+public abstract class Telefone {
+	
+	private String tipo;
+	
+	abstract public void disca(String numero);
+	
+}

@@ -1,0 +1,6 @@
+package PortoSeguro;
+
+public class Operario extends Pessoa{
+	
+	
+}

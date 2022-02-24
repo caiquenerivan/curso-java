@@ -1,0 +1,11 @@
+package PortoSeguro;
+
+public class Pessoa {
+	private String nome;
+	private String endereco;
+	private String cpf;
+	private int telefone;
+	private int idade;
+	
+	
+}

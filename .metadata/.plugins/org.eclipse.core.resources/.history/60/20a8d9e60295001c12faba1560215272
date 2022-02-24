@@ -1,0 +1,26 @@
+package PortoSeguro;
+
+public class Celular extends Telefone{
+
+	public Celular() {
+		super("Telefone Celular");
+
+		
+	}
+
+	@Override
+	public void disca(String numero) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void toca(int codigoToque) {
+		// TODO Auto-generated method stub
+		switch(codigoToque) {
+			
+		}
+	}
+	
+	
+}
