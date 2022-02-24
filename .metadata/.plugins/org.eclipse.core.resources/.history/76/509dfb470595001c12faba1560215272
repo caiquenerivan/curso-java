@@ -2,7 +2,7 @@ package PortoSeguro;
 
 public class Fixo extends Telefone{
 
-	public Fixo() {
+	public Fixo(String tipo) {
 		super("Telefone fixo");
 		// TODO Auto-generated constructor stub
 	}
@@ -10,14 +10,22 @@ public class Fixo extends Telefone{
 	@Override
 	public void disca(String numero) {
 		// TODO Auto-generated method stub
-		System.out.println("\nDiscando "+numero);
+		
 	}
 
 	@Override
 	public void toca(int numToques) {
 		// TODO Auto-generated method stub
-		for(int i=0;i<numToques;i++) {
-			System.out.println("\nTrimtrimtrim... Trimtrimtrim...");
+		switch(codigoToque) {
+		case 1:
+			System.out.println("\ntriiiiim... triiiim...");
+			break;
+		
+		case 2:
+			System.out.println("\ntananinanam... tananinanam...");
+			break;
+		default:
+			System.out.println("\npirilimpirilimpirilim... pirilimpirilimpirilim...");
 		}
 	}
 

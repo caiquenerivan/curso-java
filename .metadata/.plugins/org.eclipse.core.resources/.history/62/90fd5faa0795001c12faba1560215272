@@ -1,23 +1,23 @@
 package PortoSeguro;
 
-public class Fixo extends Telefone{
+public class Publico extends Telefone{
 
-	public Fixo() {
-		super("Telefone fixo");
+	public Publico(String tipo) {
+		super("Telefone público");
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void disca(String numero) {
 		// TODO Auto-generated method stub
-		System.out.println("\nDiscando "+numero);
+		
 	}
 
 	@Override
 	public void toca(int numToques) {
 		// TODO Auto-generated method stub
 		for(int i=0;i<numToques;i++) {
-			System.out.println("\nTrimtrimtrim... Trimtrimtrim...");
+			System.out.println("\n");
 		}
 	}
 

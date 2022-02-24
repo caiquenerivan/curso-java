@@ -1,0 +1,9 @@
+package PortoSeguro;
+
+public class TesteTelefone {
+	public static void main(String[] args) {
+		Celular celular = new Celular();
+		Fixo fixo = new Fixo();
+		Publico publico = new Publico();
+	}
+}

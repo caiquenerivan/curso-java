@@ -2,7 +2,7 @@ package PortoSeguro;
 
 public class Fixo extends Telefone{
 
-	public Fixo() {
+	public Fixo(String tipo) {
 		super("Telefone fixo");
 		// TODO Auto-generated constructor stub
 	}
